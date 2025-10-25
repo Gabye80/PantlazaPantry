@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.loading{
+    width: 200vw;
+}
+
+body {
+    font-family: m;
+    background: url('/img/background.png') center/cover no-repeat fixed;
+    color: #222;
+}
+
+.menu{
+    padding-top: 4em;
+    padding-bottom: 1rem;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(4px);
+}
+
+.menu h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.menu p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+
+.categories button{
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.cards .card h2{
+    font-size: 1.1rem;
+    margin: 0.6rem 0 0.2rem;
+}
+
+
